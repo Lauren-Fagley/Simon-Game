@@ -13,13 +13,6 @@ A browser-based implementation of the classic Simon memory game. This project us
 
   No external libraries or frameworks required
 
-# File Structure
-
-simon-game/
-├── assignment-02.html             // Main HTML structure
-├── assignment-02.css      // Styling for layout and game interface
-└── assignment-02.js       // JavaScript logic for game functionality
-
 # How to Play
 
   Open assignment-02.html in a modern web browser.
