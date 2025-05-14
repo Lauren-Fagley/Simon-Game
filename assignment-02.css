@@ -1,0 +1,147 @@
+/** <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 400 to 900**/
+
+.orbitron{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.zone {
+    position: relative;
+    width: 100%;
+    height: 60px; /* Adjust the height as needed */
+    background-color: white; 
+    margin-bottom: 0px; /* Adjust spacing between shapes */
+ }
+
+.zone .centercircle{
+    width: 200px;
+    height: 200px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -ms-transform: translate(-150%, -50%);
+    padding: 24px 30px;
+}
+
+.zone .topleftcircle{
+    width: 150px;
+    height: 150px;
+    background: rgb(90, 145, 90);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-137%, 15%);
+    -ms-transform: translate(-150%, -50%);
+    padding: 2px 6px;
+    border: solid 10px black;
+    text-align: center;
+}
+
+.zone .toprightcircle{
+    width: 150px;
+    height: 150px;
+    background: rgb(195, 88, 88);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(35%, 15%);
+    -ms-transform: translate(-150%, -50%);
+    padding: 2px 6px;
+    border: solid 10px black;
+    text-align: center;
+}
+
+.zone .bottomleftcircle{
+    width: 150px;
+    height: 150px;
+    background: rgb(192, 192, 91);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-137%, 170%);
+    -ms-transform: translate(-150%, -50%);
+    padding: 2px 6px;
+    border: solid 10px black;
+    text-align: center;
+}
+
+.zone .bottomrightcircle{
+    width: 150px;
+    height: 150px;
+    background: rgb(103, 103, 193);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(35%, 170%);
+    -ms-transform: translate(-150%, -50%);
+    padding: 2px 6px;
+    border: solid 10px black;
+    text-align: center;
+}
+
+.zone .start{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 535%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: #f1f1f1;
+   color: black;
+   font-size: 16px;
+   font: orbitron;
+   padding: 12px 16px;
+   border-radius: 10px;
+   text-align: center;
+   cursor:pointer;
+}
+
+.zone .best{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-180%, 535%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    font: orbitron;
+    padding: 12px 16px;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+ .zone .score{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(80%, 535%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    font: orbitron;
+    padding: 12px 16px;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+ .zone .off{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 2800%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: red;
+ }
